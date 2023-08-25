@@ -48,7 +48,7 @@ https://docs.google.com/document/d/1mOxzfOack1ilI-PdAbI7Wo8ph8YSeoNa5vXeMsMdN_I/
 # 工夫したポイント
 
 # 改善点
-
+基本機能をわかりやすくするためにシンプルにしつつも装飾性を持たせるようにする。
 # 制作時間
 
 
