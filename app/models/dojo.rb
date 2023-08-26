@@ -1,5 +1,6 @@
 class Dojo < ApplicationRecord
-  
+  has_many :dojo_editors
+  has_many :users, through: :dojo_editors
   has_one_attached :image
 
   with_options presence: true do
