@@ -15,6 +15,6 @@ class DojosController < ApplicationController
   private
   
   def dojo_params
-    params.require(:dojo).permit(:name, :address, :contact, :introduction, :photo, :rules)
+    params.require(:dojo).permit(:name, :prefecture, :municipalities, :address, :phone_number, :introduction, :rule, :image).merge(user_id: current_user.id)
   end
 end
