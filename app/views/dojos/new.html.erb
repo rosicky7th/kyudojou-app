@@ -1,0 +1,21 @@
+<%= form_for @dojo do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name %><br>
+  
+  <%= f.label :address %>
+  <%= f.text_field :address %><br>
+  
+  <%= f.label :contact %>
+  <%= f.text_field :contact %><br>
+  
+  <%= f.label :introduction %>
+  <%= f.text_area :introduction %><br>
+  
+  <%= f.label :photo %>
+  <%= f.text_field :photo %><br>
+  
+  <%= f.label :rules %>
+  <%= f.text_area :rules %><br>
+  
+  <%= f.submit %>
+<% end %>
